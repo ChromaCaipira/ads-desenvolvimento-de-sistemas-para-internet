@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background: linear-gradient(68.15deg, #1D241C 16.62%, #52653A 85.61%);
+}
+
+.cabecalho {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.cabecalho-logo {
+    width: auto;
+    height: 95px;
+}
+
+.cabecalho-redes {
+    display: flex;
+    gap: 28px;
+}
+
+.conteudo {
+    border-top: 0.3px solid #FFF2E7;
+    margin-bottom: 48px;
+}
+
+.conteudo-info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 45px;
+}
+
+.conteudo-info-escrito {
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.conteudo-info-titulo {
+    font-family: 'Righteous', cursive;
+    font-weight: 400;
+    font-size: 45px;
+    color: #DCFF96;
+}
+
+.conteudo-info-subtitulo {
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    color: #CBE98F;
+}
+
+.conteudo-info-botao {
+    background-color: #CBFF63;
+    width: 209px;
+    height: 73px;
+    border: none;
+    box-shadow: 4px 5px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 20px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #2F2325;
+}
+
+.conteudo-info-botao:hover {
+    background-color: rgba(214, 236, 196, 0.53);
+}
+
+.conteudo-bola {
+    height: 372px;
+}
+
+.rodape {
+    padding: 32px;
+    border-top: 0.3px solid #FFF2E7;
+    font-family: 'Sarala', sans-serif;
+    font-weight: 400;
+    color: #CBE98F;
+    text-align: center;
+}
