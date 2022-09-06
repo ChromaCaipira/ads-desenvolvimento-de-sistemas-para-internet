@@ -24,7 +24,7 @@ fun main() {
     var qntd4 = 0
     var qntd5 = 0
 
-    println("Bem-vindo ao restaurante X! Faça seu pedido a seguir:")
+    println("Bem-vindo ao restaurante CHROMA! Faça seu pedido a seguir:")
     println(
         "Digite 1 para $item1, \n" +
                 "Digite 2 para $item2, \n" +
